@@ -28,7 +28,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative min-h-[580px] md:min-h-[620px] flex items-center overflow-hidden">
+    <section className="relative min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-116px)] flex items-center overflow-hidden flex-grow">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
