@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import ExpertTeam from './components/ExpertTeam';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Navbar />
       <main className="flex-grow flex flex-col">
         <Hero />
+        <ExpertTeam />
       </main>
     </div>
   );
